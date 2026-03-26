@@ -52,7 +52,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
-import { getList } from '../utils/request'
+import { getList } from '@/utils/request.js'
 
 const loading = ref(true)
 const stockCount = ref(0)
